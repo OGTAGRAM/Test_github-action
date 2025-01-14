@@ -36,3 +36,6 @@ jobs:
 
       - name: Run Python script
         run: python name.py
+
+      - name: Secret Variable
+        run: echo ${{ secrets.NAME_LENGKAP }}
